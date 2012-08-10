@@ -4,3 +4,9 @@
 [submodule "cookbooks/dotfiles"]
 	path = cookbooks/dotfiles
 	url = git@github.com:rgeyer-rs-cookbooks/dotfiles.git
+[submodule "cookbooks/zsh"]
+	path = cookbooks/zsh
+	url = git@github.com:rgeyer-rs-cookbooks/zsh.git
+[submodule "cookbooks/osx"]
+	path = cookbooks/osx
+	url = git@github.com:rgeyer-rs-cookbooks/osx.git

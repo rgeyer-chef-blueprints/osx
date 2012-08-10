@@ -1,8 +1,16 @@
 {
+  "_comment": "These are just my preferences, feel free to use them, or ignore them",
+
   "osx": {
     "admin_user": "<Complete me>",
     "admin_pass": "<Complete me>",
     "root_password": "<Complete me>"
+  },
+  "zsh": {
+    "omz": {
+      "theme": "gallois",
+      "plugins": ["git", "github", "knife"]
+    }
   },
   "run_list": [
     "recipe[dotfiles::install]",

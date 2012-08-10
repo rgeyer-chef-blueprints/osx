@@ -1,0 +1,9 @@
+{
+  "_comment": "Certain stuff has to be run as sudo when setting up OSX, run these first then \
+  run one of the other node.json.* files",
+
+  "zsh": {
+    "user": "<user for which to set Zsh as the default shell>"
+  },
+  "runlist": ["zsh::do_set_as_user_shell"]
+}
