@@ -1,0 +1,6 @@
+[submodule "cookbooks/rightscale"]
+	path = cookbooks/rightscale
+	url = git@github.com:rgeyer-rs-cookbooks/rightscale.git
+[submodule "cookbooks/dotfiles"]
+	path = cookbooks/dotfiles
+	url = git@github.com:rgeyer-rs-cookbooks/dotfiles.git
