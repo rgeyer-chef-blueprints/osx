@@ -10,3 +10,6 @@
 [submodule "cookbooks/osx"]
 	path = cookbooks/osx
 	url = git@github.com:rgeyer-rs-cookbooks/osx.git
+[submodule "cookbooks/iterm2"]
+	path = cookbooks/iterm2
+	url = git@github.com:rgeyer-rs-cookbooks/iterm2.git

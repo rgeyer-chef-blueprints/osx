@@ -8,6 +8,7 @@
     "recipe[dotfiles::install]",
     "recipe[zsh::install_oh_my_zsh]",
     "recipe[osx::do_enable_root]",
-    "recipe[osx::setup_keybindings]"
+    "recipe[osx::setup_keybindings]",
+    "recipe[iterm2::install]"
   ]
 }
