@@ -5,7 +5,9 @@
     "root_password": "<Complete me>"
   },
   "run_list": [
+    "recipe[wget::install_from_source]",
     "recipe[phpenv::install]",
+    "recipe[phpbuild::install]",
     "recipe[zsh::install_oh_my_zsh]",
     "recipe[dotfiles::install]",
     "recipe[osx::do_enable_root]",

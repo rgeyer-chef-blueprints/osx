@@ -16,3 +16,9 @@
 [submodule "cookbooks/phpenv"]
 	path = cookbooks/phpenv
 	url = git@github.com:rgeyer-rs-cookbooks/phpenv.git
+[submodule "cookbooks/wget"]
+	path = cookbooks/wget
+	url = git@github.com:rgeyer-rs-cookbooks/wget.git
+[submodule "cookbooks/phpbuild"]
+	path = cookbooks/phpbuild
+	url = git@github.com:rgeyer-rs-cookbooks/phpbuild.git
