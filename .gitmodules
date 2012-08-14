@@ -13,3 +13,6 @@
 [submodule "cookbooks/iterm2"]
 	path = cookbooks/iterm2
 	url = git@github.com:rgeyer-rs-cookbooks/iterm2.git
+[submodule "cookbooks/phpenv"]
+	path = cookbooks/phpenv
+	url = git@github.com:rgeyer-rs-cookbooks/phpenv.git

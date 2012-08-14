@@ -13,8 +13,9 @@
     }
   },
   "run_list": [
-    "recipe[dotfiles::install]",
+    "recipe[phpenv::install]",
     "recipe[zsh::install_oh_my_zsh]",
+    "recipe[dotfiles::install]",
     "recipe[osx::do_enable_root]",
     "recipe[osx::setup_keybindings]",
     "recipe[iterm2::install]"
