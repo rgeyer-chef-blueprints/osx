@@ -5,7 +5,7 @@
     "root_password": "<Complete me>"
   },
   "run_list": [
-    "recipe[wget::install_from_source]",
+    "recipe[homebrew::default]",
     "recipe[phpenv::install]",
     "recipe[phpbuild::install]",
     "recipe[zsh::install_oh_my_zsh]",
